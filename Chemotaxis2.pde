@@ -4,7 +4,7 @@ boolean up, down, left, right;
 void setup() {
   background(122);
   size(500, 500);
-  //right=true;
+  right=true;
 }
 Bacteria b = new Bacteria(mouseX, mouseY);
 void draw() {
